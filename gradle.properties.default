@@ -1,0 +1,10 @@
+# 1.
+# rename this file: gradle.properties.default -> gradle.properties
+
+# 2.
+# to be able run 'buildImage', 'createContainer', 'commitImage', 'pushImage', and 'pullImage' gradle tasks
+# update required information below (replace <...>):
+
+dockerHubUsername=<change it to your hub.docker.com username>
+dockerHubPassword=<change it to your hub.docker.com password>
+dockerHubEmail=<change it to your hub.docker.com email>
