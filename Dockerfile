@@ -1,4 +1,4 @@
-FROM java:8
+FROM openjdk:8u131-jre-alpine
 MAINTAINER Maksim Kostromin "daggerok@gmail.com"
 COPY build/libs/ /opt/apps/
 EXPOSE 8080
