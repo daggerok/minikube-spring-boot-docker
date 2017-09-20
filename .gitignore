@@ -1,6 +1,5 @@
 # docker.hub.io credentials
 .gradle
-gradle*
 !gradle.properties.default
 
 ### STS ###
